@@ -1,0 +1,148 @@
+﻿html {
+    background-image: url('../img/bg2.jpg');
+    height: 100%;
+}
+
+body {
+    height: 100%;
+}
+
+
+.container {
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+
+}
+
+
+.biala-kartka {
+    position: absolute;
+    left: 50%;
+    top: 150px;
+    height: 500px;
+    width: 350px;
+    background-color: white;
+    background-image: url('../img/napis.jpg');
+    background-size: 350px;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-box-shadow: 6px 9px 18px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 6px 9px 18px -5px rgba(0,0,0,0.75);
+    box-shadow: 6px 9px 18px -5px rgba(0,0,0,0.75);
+    -moz-transition: 1s ease-out;
+    -o-transition: 1s ease-out;
+    -webkit-transition: 1s ease-out;
+    transition: 1s ease-out;
+}
+
+.scale {
+    z-index: 3;
+    -moz-transform: scale(3) translate(-100px,-250px);
+    -ms-transform: scale(3) translate(-100px,-250px);
+    -o-transform: scale(3) translate(-100px,-250px);
+    -webkit-transform: scale(3) translate(-100px,-250px);
+    transform: scale(3) translate(-100px,-250px);
+    -moz-transition: 1s ease-out;
+    -o-transition: 1s ease-out;
+    -webkit-transition: 1s ease-out;
+    transition: 1s ease-out;
+}
+
+.first-slide {
+    z-index: 3;
+    -moz-transform: scale(3) translate(-100px,50px);
+    -ms-transform: scale(3) translate(-100px,50px);
+    -o-transform: scale(3) translate(-100px,50px);
+    -webkit-transform: scale(3) translate(-100px,50px);
+    transform: scale(3) translate(-100px,50px);
+    -moz-transition: 1s ease-out;
+    -o-transition: 1s ease-out;
+    -webkit-transition: 1s ease-out;
+    transition: 1s ease-out;
+}
+
+.rotate-right {
+    -moz-transform: rotate(7deg);
+    -ms-transform: rotate(7deg);
+    -o-transform: rotate(7deg);
+    -webkit-transform: rotate(7deg);
+    transform: rotate(7deg);
+    -moz-transition: 1s ease-out;
+    -o-transition: 1s ease-out;
+    -webkit-transition: 1s ease-out;
+    transition: 1s ease-out;
+}
+.rotate-left {
+    -moz-transform: rotate(-15deg);
+    -ms-transform: rotate(-15deg);
+    -o-transform: rotate(-15deg);
+    -webkit-transform: rotate(-15deg);
+    transform: rotate(-15deg);
+    -moz-transition: 1s ease-out;
+    -o-transition: 1s ease-out;
+    -webkit-transition: 1s ease-out;
+    transition: 1s ease-out;
+}
+
+
+#sticky-note {
+    background: url('../img/sticky-note1.png');
+    background-size: 160px 150px;
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    top: -12px;
+    left: -28px;
+    padding:25px;
+
+}
+
+#kawa {
+    background: url('../img/kawa.gif');
+    background-size: 170px;
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#zolta-kartka {
+    background: url('../img/notepad.svg');
+    background-repeat: no-repeat;
+    background-size: 270px 400px;
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 250px;
+    left: 36%;
+    z-index:-2;
+}
+
+#stuff {
+    background: url('../img/tlo-ruchome.png');
+    background-repeat: no-repeat;
+    background-size: 1400px 900px;
+    width:1400px;
+    height:900px;
+    position: absolute;
+    top: 10px;
+    left: 15%;
+    z-index:-2;
+}
+
+#back-image {
+    background: url('../img/tlo.png');
+    background-repeat: no-repeat;
+    background-size: 1400px 900px;
+    width:1400px;
+    height:900px;
+    position: absolute;
+    top: 10px;
+    left: 15%;
+    z-index:-3;
+}
